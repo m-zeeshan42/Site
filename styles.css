@@ -1,0 +1,116 @@
+/* Basic styling for the navigation bar */
+body {
+    font-family: ubuntu, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+
+    max-width: 1000px;
+    /* Adjust maximum width as needed */
+    margin: 0 auto;
+    /* Center the nav horizontally */
+}
+
+nav .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+    /* Adjust spacing between logo and links */
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav ul li {
+
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+.mail-button {
+
+    background-color: #0ca34d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.mail-button:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    background-color: #0b8e42;
+    /* Darker color on hover */
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Align items at the top */
+    flex-wrap: wrap;
+    /* Allow items to wrap if needed */
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.create-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    /* Adjust spacing between sections */
+}
+
+.create-section p {
+    font-size: 100px;
+    font-weight: bold;
+    margin: -10px;
+    color: #000;
+}
+
+.p3 {
+
+    margin-left: 150px;
+}
+
+.p4 {
+    margin-top: auto;
+    /* Push p4 to the bottom */
+    font-size: 12px;
+    /* Smaller font size for p4 */
+    max-width: 400px;
+    /* Limit width if needed */
+    margin-left: 20px;
+    /* Adjust spacing between sections */
+    text-align: center;
+    /* Center-align text */
+}
